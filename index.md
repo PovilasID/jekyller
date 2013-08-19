@@ -21,11 +21,14 @@ style: |
         font-style:italic;
         font-size:35px;
         }
-    #Cover h2 img {
+    #Cover div h2 img {
         position: inherit;
-        with: 4em;
-        height: 1em;
+        width: 7em;
         z-index: 1;
+    }
+    #Cover p img{
+        width: 1024px;
+        height: 640px;
     }
         #Cover p a {
             color:#3C3D40;
@@ -38,6 +41,10 @@ style: |
         #Cover p.note a{
             color: #999;
         }
+    .cover img {
+        width: 1024px;
+        height: 640px;
+    }
     #Picture h2 {
         color:#FFF;
         }
@@ -50,18 +57,18 @@ style: |
         }
 ---
 
-# ![](pictures/logo.svg) {#Cover}
-*Mobile app for discovering events*
+# ![](pictures/logo_white.svg) {#Cover}
+*Mobili aplikacija renginių atradimui*
 
 {:.note}
 Twitter [@SocialheatApp](http://twitter.com/SocialheatApp) 
 
-![](pictures/bg3.jpg)
+![](pictures/bg0.png)
 
 
 ## Reklamos srautas akina
-
-Todėl lengva pažiopsoti tikrai gerus dalykus
+{:.cover #Picture}
+![](pictures/tunnel.jpg)
 
 ##Sprendimas
 
