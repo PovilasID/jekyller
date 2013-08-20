@@ -468,6 +468,13 @@ a {
 					display:block;
 					}
 				}
+				// Next
+			.next {
+				display:none;
+				&.active {
+					display:block;
+					}
+				}
 			// Current
 			&:target {
 				margin:0;
